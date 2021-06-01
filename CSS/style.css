@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
-
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     /* overflow: hidden; */
 }
 
 .wrapper {
-    margin:0;
-    padding:10px;
+    margin: 0;
+    padding: 10px;
 }
 
 .title {
-    margin:0;
-    width:100%;
+    margin: 0;
+    width: 100%;
     font-family: Libre Franklin;
-    color:black;
+    color: black;
     text-transform: uppercase;
     font-size: 4rem;
     text-align: center;
@@ -26,17 +25,18 @@ body {
 .menu {
     width: 100%;
     /* padding:5px; */
-    min-height:10vh;
+    min-height: 10vh;
     display: flex;
     justify-content: space-around;
     align-content: center;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
 }
+
 .menu-row {
-    height:3rem;
+    height: 3rem;
     margin: 5px;
-    align-self:center;
+    align-self: center;
 }
 
 .link {
@@ -51,29 +51,24 @@ body {
 }
 
 p {
-    font-family:ABeeZee;
+    font-family: ABeeZee;
 }
 
 .image {
     width: 100%;
 }
 
-
-
 @media only screen and (max-width: 400px) {
     .title {
         font-size: 4rem;
     }
-
     .menu {
         flex-direction: column;
     }
-    
-    }
+}
 
-    @media only screen and (max-width: 350px) {
-        .title {
-            font-size: 3rem;
-        }
-        
-        }
+@media only screen and (max-width: 350px) {
+    .title {
+        font-size: 3rem;
+    }
+}
